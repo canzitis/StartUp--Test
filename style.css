@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
 }
@@ -332,10 +333,28 @@ color: #0B0B0B;
     color: #001A33;
 
     transform: rotate(0deg);
-    }
+}
 
+.carousel-control-prev-icon{
+    border: 3px solid rgba(65, 105, 193, 0.38);
+    transform: rotate(-90deg);
+}
 
+.carousel {
+    margin:  0 auto;
+  
+}
 
+.carousel-item img{
+    width: 400px;
+    height: 500px;
+}
+
+.d-block w-100{
+    width: 700px;
+    height: 445px;
+    background: #4169C1;
+}
 
 
 
