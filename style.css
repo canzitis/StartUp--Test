@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin:  0 auto;
+}
+
+.navbar{
+    position: relative;
+    max-width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-company{
+    display: flex;
+    max-width: 250px;
+}
+
+.logo-company h4{
+    margin:  0;
+
+    font-family:"Play";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #0E0E0E;
+}
+
+
+.logo-company span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+       
+    letter-spacing: 0.015em;
+    
+    color: rgba(14, 14, 14, 0.61);
+}
+
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link a{
+    padding: 37px 17px;
+    align-items:center;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #001A33;
+    text-decoration: none;
+}
+
+.nav-link a:nth-of-type(4){
+    color: #4169C1;
+}
+
+.nav-link a:hover{
+    background: #4169C1;
+    color: #FFFFFF;
+}
+
+.logo-company img{
+    width: 48px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.company-name{
+    display: flex;
+    flex-direction: column;
+    margin:  0;
+}
+
+.tel-call{
+    display: flex;
+    align-items: center;
+}
+
+.tel-call a{
+    text-decoration: none;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+
+color: #0B0B0B;
+}
+
+.tel-call img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.construction-services-text{
+    height: 488px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url('./img/Rectangle 2.svg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: center;
+}
+
+.construction-services-text h4{
+    max-width: 846px;
+    margin-top: 109px;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    
+    transform: rotate(0deg);
+}
+
+.construction-services-text span{
+    max-width: 585px;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 156.46%;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.feedback-heading{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feedback-heading h4{
+    margin:  0;
+    margin-top: 34px;
+    margin-bottom: 25px;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #001A33;
+}
+
+.feedback{
+    position: relative;
+    top: -170px;
+    max-width: 1200px;
+    height: 202px;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('./img/Rectangle 153.svg');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow:hidden
+}
+
+.feedback-container{
+    width: 1054px;
+    margin: 0 auto;
+}
+
+.input-data{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+
+
+.input-data input{
+  
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 15px;
+
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(16, 16, 16, 0.4);
+    margin-right: 20px;
+}
+
+
+.input-data-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.input-data-item span{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #001A33;
+}
+
+.input-data button{
+    width: 100%;
+    height: 50px;
+    background: #FD6612;
+    border-radius: 23.5px;
+    border:none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    padding:  0;
+
+    color: #FFFFFF;
+}
+
+.input-data button{
+  cursor: pointer;
+}
+
+
+.box-geographic-works{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.geographic-works-text{
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.geographic-works-text h4{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44px;
+    margin-top: 94px;
+    margin-bottom: 23px;
+    color: #001A33;
+
+    transform: rotate(0deg);
+}
+
+.geographic-works-text h5{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 150.52%;
+
+    color: #001A33;
+}
+
+.geographic-works-text span{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.46%;
+
+    color: rgba(0, 26, 51, 0.7);
+}
+
+.geographic-works-img{
+    max-width: 724px;
+    height: 455px;
+}
+
+
+.our-portfolio{
+ 
+    height: 744px;
+    background: #F4F8FF;
+}
+
+
+.our-portfolio h4{
+    font-family: Geometria;
+    padding-top: 70px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44px;
+
+    text-align: center;
+
+    color: #001A33;
+
+    transform: rotate(0deg);
+    }
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Play"; 
+    src: url("./fonts/Play-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+} 
