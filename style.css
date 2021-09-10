@@ -606,6 +606,8 @@ color: #0B0B0B;
 
 .box-footer-site-contacts{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .contacts{
@@ -716,6 +718,111 @@ color: #0B0B0B;
     color: #FFFFFF;
 }
 
+.feedback-questions{
+    width: 720px;
+    height: 420px;
+    
+    position: relative;
+    bottom: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.feedback-questions-container{
+    max-width: 580px;
+    margin:  0 auto;
+}
+
+.feedback-questions h4{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 40px;
+    color: #001A33;
+}
+
+
+.box-feedback-questions-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.item-input-data-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-feedback-questions-grid span{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+    
+    color: #001A33;
+    
+}
+
+.item-input-data-user input{
+    font-family: "Geometria";
+    background: #EEF2F9;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 15px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(16, 16, 16, 0.4);
+}
+
+.box-comments{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-comments input{
+    background: #EEF2F9;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 192px;
+    padding-left: 15px;
+}
+
+.box-comments input::placeholder{
+    transform: translateY(-70px);
+}
+
+.box-comments button{
+   height: 50px;
+    margin-top: 35px;
+   background: #FD6612;
+   border-radius: 23.5px;  
+
+   border: none;
+
+   font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
 
 
 
