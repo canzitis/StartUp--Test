@@ -264,8 +264,8 @@ color: #0B0B0B;
 
 
 .box-geographic-works{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
 }
 
 
@@ -824,17 +824,83 @@ color: #0B0B0B;
     color: #FFFFFF;
 }
 
+.chekbox input{
+    margin-right: 5px;
+}
+
+.chekbox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+}
+
+.chekbox span{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: rgba(16, 16, 16, 0.4);
+    
+}
+
+.chekbox a{
+    color: black;
+}
+
+
+.box-copyright{  
+    height: 93px;
+    background: #001A33;
+}
+
+.box-copyright-flex{
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-copyright span{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(255, 255, 255, 0.53);
+}
+
+.box-fox{
+    display: flex;
+}
+
+.box-fox img{
+    margin-right: 8px;
+}
+
+.box-fox a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
 
 
 
 
-
-
-
-
-
-
-
+@media(max-width:1400px){
+    .container{
+        max-width: 1000px;
+    }
+}
 
 
 @font-face {
