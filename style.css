@@ -258,8 +258,11 @@ color: #0B0B0B;
     color: #FFFFFF;
 }
 
-.input-data button{
+
+.input-data button:hover{
   cursor: pointer;
+  transform: scale(1.1);
+  transition: transform .5s
 }
 
 
@@ -343,6 +346,12 @@ color: #0B0B0B;
     transform: rotate(0deg);
 }
 
+
+.box-flex{
+    display: flex;
+}
+
+
 .carousel-control-prev-icon{
     border: 3px solid rgba(65, 105, 193, 0.38);
     transform: rotate(-90deg);
@@ -354,19 +363,16 @@ color: #0B0B0B;
     height: 24px;
 
 }
+
 .d-block-img1{
     width: 400px;
     height: 500px;
+    
 }
-
-.d-block-2{
-    max-width: 700px;
+.d-block-img2{
+    width: 400px;
     height: 500px;
-    margin: 0 auto;
-    background: #4169C1;
-   
 }
-
 
 .d-block-2 h4{
     font-family:  "Geometria";
@@ -405,10 +411,54 @@ color: #0B0B0B;
 
 }
 
+.box-slide-1{
+    max-width: 950px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.slide-carousel{
+    width: 720px;
+    height: 450px;
+    background: #4169C1;
+}
+
 .container-carousel{
-    margin: 0 auto;
-    max-width: 585px;
-    height: 100%;
+    max-width: 500px;
+    margin:  0 auto;
+}
+
+.carousel-inner{
+    width: 80%;
+}
+
+.container-carousel h4{
+    text-align: left;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.container-carousel p{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.46%;
+
+    color: rgba(255, 255, 255, 0.7);
+
 }
 
 
@@ -455,6 +505,10 @@ color: #0B0B0B;
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+.bid-go-button:hover {
+    transform: scale(1.1);
+    transition: transform .5s
 }
 
 
@@ -715,6 +769,12 @@ color: #0B0B0B;
     margin-top: 27px;
 }
 
+
+.social-icon-contacts a:hover{
+    transform: scale(1.2);
+    transition: transform .5s
+}
+
 .name-company-contacts h5{
     font-family: "Geometria";
     font-style: normal;
@@ -834,6 +894,11 @@ color: #0B0B0B;
     letter-spacing: 0.04em;
 
     color: #FFFFFF;
+}
+
+.box-comments button:hover{
+    transform: scale(1.1);
+    transition: transform .5s
 }
 
 .chekbox input{
@@ -974,7 +1039,14 @@ color: #0B0B0B;
     align-items:center
 }
 
+
+.list-mobile button:hover{
+    transform: scale(1.1);
+    transition: transform .5s
+}
+
 .construction-services-mobile{
+    display: none;
     background-image:url('./img/mobile/Rectangle 2mobile.svg');
     height:757px;
     background-repeat:no-repeat;
@@ -1067,6 +1139,12 @@ color: #0B0B0B;
     color: #FFFFFF;
 }
 
+
+.input-data-mobile button:hover{
+    transform: scale(1.1);
+    transition: transform .5s
+}
+
 .input-data-mobile input{
   
     height: 50px;
@@ -1099,13 +1177,15 @@ color: #0B0B0B;
     height: 250px;
 }
 
+
+
 .about-our-company-mobile-box{
     display: flex;
     flex-direction: column;
 }
 
 .about-our-company-mobile{
-    display: flex;
+    display: none;
     height: 100%;
 }
 
@@ -1123,7 +1203,7 @@ color: #0B0B0B;
     margin:  0 auto;
     position: relative;
     z-index: 10;
-    width: 585px;
+    max-width: 585px;
     height:588px;
     background-image:url('./img/Group\ 38.svg')
 }
@@ -1160,10 +1240,158 @@ color: #0B0B0B;
 }
 
 
+.footer-site-contacts-mobile{
+    display: none;
+    height: 505px;
+    background: #4169C1;
+}
+
+.contacts-mobile{
+    display: flex;
+    flex-direction: column;
+}
 
 
+.contacts-mobile h4{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 65px;
+    margin-bottom:30px;
+    line-height: 44px;
+    color: #FFFFFF;
+
+    transform: rotate(0deg);
+}
+
+.contacts-mobile span{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.contacts-mobile{
+    max-width: 255px;
+}
+
+.contacts-mobile a{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    opacity: 0.7;
+    margin-bottom: 14px;
+}
+.name-company-contacts-mobile h5{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 77px;
+    margin-bottom: 70px;
+    color: #FFFFFF;
+}
 
 
+.tel-contact-mobile,.email-contact-mobile,.address-contact-mobile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-contact-mobile a{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+
+
+.feedback-questions-mobile{
+    width: 360px;
+    height: 100%;
+    
+    position: relative;
+    bottom: 30px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.feedback-questions-container-mobile{
+    max-width: 270px;
+    margin:  0 auto;
+}
+
+
+.box-feedback-questions-grid-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.chekbox-mobile input{
+    margin-right: 5px;
+}
+
+.chekbox-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.chekbox-mobile span{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(16, 16, 16, 0.4);
+        align-items: flex-end;
+
+}
+
+.chekbox-mobile a{
+    color: black;
+}
+
+.item-input-data-user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-input-data-user-mobile input{
+    font-family: "Geometria";
+    background: #EEF2F9;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 15px;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(16, 16, 16, 0.4);
+}
 
 
 
@@ -1206,7 +1434,9 @@ color: #0B0B0B;
     .navbar{
         display: none
     }
-
+    .construction-services-mobile{
+        display: block;
+    }
     .header-mobile{
         display: flex;
     }
@@ -1259,7 +1489,43 @@ color: #0B0B0B;
     .about-our-company-mobile{
         display: block;
     }
+
+    .box-slide-1{
+        flex-direction: column;
+    }
+
+   .d-block-img1, .d-block-img2 {
+       width: 100%;
+       object-fit: cover
+   }
+
+   .footer-site-contacts{
+       display: none;
+   }
+
+
+   .footer-site-contacts-mobile{
+       display: block;
+   }
+
+   .box-copyright{
+    height: 180px;
 }
+
+    .box-copyright-flex{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .box-fox{
+        width: 180px;
+        align-items: flex-start;
+    }
+}
+
     @media(max-width:860px){
         .container{
             max-width: 750px;
@@ -1271,11 +1537,28 @@ color: #0B0B0B;
         .container{
             max-width: 600px;
         }
+
+        .container-carousel{
+            max-width: 450px;
+        }
     }   
     
     @media(max-width:600px){
         .container{
             max-width: 480px;
+        }
+
+        .container-carousel{
+            max-width: 350px;
+            
+        }
+
+        .block-chek-text{
+            flex-direction: column;
+        }
+
+        .bid-go-button{
+            margin-top: 10px;
         }
     }
 
