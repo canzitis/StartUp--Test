@@ -12,6 +12,7 @@ body{
     max-width: 1200px;
     padding:  0;
     margin:  0 auto;
+    height: 100%;
 }
 
 .navbar{
@@ -161,8 +162,6 @@ color: #0B0B0B;
 
 .feedback-heading{
     width: 80%;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .feedback-heading h4{
@@ -183,13 +182,9 @@ color: #0B0B0B;
     top: -170px;
     max-width: 1200px;
     height: 202px;
-    display: flex;
-    flex-direction: column;
-
     background-image: url('./img/Rectangle 153.svg');
-    background-repeat: no-repeat;
     border-radius: 5px;
-    overflow:hidden
+    background-size: cover;
 }
 
 .feedback-container{
@@ -770,6 +765,10 @@ color: #0B0B0B;
     flex-direction: column;
 }
 
+.content-mobile-feedback{
+    display: none;
+    
+}
 .box-feedback-questions-grid span{
     font-family: "Geometria";
     font-style: normal;
@@ -975,11 +974,190 @@ color: #0B0B0B;
     align-items:center
 }
 
+.construction-services-mobile{
+    background-image:url('./img/mobile/Rectangle 2mobile.svg');
+    height:757px;
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: center;
+}
+
+.construction-services-text-mobile h4{
+
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.015em;
+
+  
+    color: #FFFFFF;
+
+    transform: rotate(0deg);
+    max-width: 600px;
+    margin:  0 auto;
+    padding-top: 72px;
+}
+
+.construction-services-text-mobile span{
+    max-width: 400px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 156.46%;
+
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.feedback-mobile{
+    display: none;
+    position: relative;
+    top: -255px;
+    background-image: url('./img/mobile/Rectangle 153mobile.svg');
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.feedback-container-mobile{
+    display: flex;
+}
+
+.input-data-item-mobile{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.input-data-item-mobile span{
+    font-family:  "Geometria";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #001A33;
+}
+
+.input-data-mobile button{
+    width: 100%;
+    height: 50px;
+    background: #FD6612;
+    border-radius: 23.5px;
+    border:none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family:  "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+  
+    padding:  0;
+    
+    color: #FFFFFF;
+}
+
+.input-data-mobile input{
+  
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 15px;
+
+    font-family:  "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(16, 16, 16, 0.4);
+}
+
+.input-data-mobile{
+    display: grid;
+    grid-template-rows: repeat(4,80px) ;
+}
+
+.container-mobile-feedback{
+    max-width: 500px;
+    margin:  0 auto;
+}
+
+.content-mobile-feedback{
+    height: 250px;
+}
+
+.about-our-company-mobile-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-our-company-mobile{
+    display: flex;
+    height: 100%;
+}
+
+
+.about-our-company-mobile-img{
+    width: 100%;
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+}
 
 
 
+.about-our-company-1-mobile{
+    margin:  0 auto;
+    position: relative;
+    z-index: 10;
+    width: 585px;
+    height:588px;
+    background-image:url('./img/Group\ 38.svg')
+}
 
 
+.about-our-company-container-mobile h5{
+    padding-top: 73px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.about-our-company-container-mobile{
+    max-width: 440px;
+    margin:  0 auto;
+    height: 100%;
+}
+
+.about-our-company-container-mobile p{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 156.46%;
+
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
 
 
 
@@ -1032,7 +1210,57 @@ color: #0B0B0B;
     .header-mobile{
         display: flex;
     }
+
+    .construction-services{
+        display: none;
+    }
+
+    .construction-services{
+        display: none;
+    }
+
+    .feedback{
+        display: none;
+    }
+
+    .feedback-mobile{
+        display: block;
+    }
+    
+    .content-mobile{
+        display: block;
+    }
+
+    .content-mobile-feedback{
+        display: block;
+    }
+
+    .box-geographic-works{
+        display: block;
+
+    }
+
+    .geographic-works-img {
+        max-width: 100%;
+    }  
+    
+    .geographic-works-img img{
+        max-width: 100%;
+    }
+    
+    .box-grid-works-item{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-our-company{
+        display: none;
+    }
+
+    .about-our-company-mobile{
+        display: block;
+    }
 }
+    
 
 
 @font-face {
