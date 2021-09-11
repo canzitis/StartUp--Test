@@ -89,7 +89,7 @@
                     <div class="feedback-mobile">
                         <div class="container-mobile-feedback">
                             <div class="feedback-container-mobile">
-                                <div class="container">
+                                <div class="container-feedback">
                                     <div class="feedback-heading">
                                         <h4>Оставьте заявку на <br><span>бесплатную</span> консультацию</br></h4>
                                     </div>
@@ -115,24 +115,26 @@
                 </div>
                 <div class="feedback">
                     <div class="feedback-container">
-                        <div class="feedback-heading">
-                            <h4>Оставьте заявку на бесплатную консультацию</h4>
-                        </div>
+                        <div class="container-feedback">
+                            <div class="feedback-heading">
+                                <h4>Оставьте заявку на бесплатную консультацию</h4>
+                            </div>
 
-                        <div class="input-data">
-                            <div class="input-data-item">
-                                <span>Имя</span>
-                                <input placeholder="Михаил" type="text">
+                            <div class="input-data">
+                                <div class="input-data-item">
+                                    <span>Имя</span>
+                                    <input placeholder="Михаил" type="text">
+                                </div>
+                                <div class="input-data-item">
+                                    <span>Телефон</span>
+                                    <input placeholder="8 (800) 535 35 35" type="text">
+                                </div>
+                                <div class="input-data-item">
+                                    <span>Почта</span>
+                                    <input placeholder="company@mail.com" type="text">
+                                </div>
+                                <button>Отправить</button>
                             </div>
-                            <div class="input-data-item">
-                                <span>Телефон</span>
-                                <input placeholder="8 (800) 535 35 35" type="text">
-                            </div>
-                            <div class="input-data-item">
-                                <span>Почта</span>
-                                <input placeholder="company@mail.com" type="text">
-                            </div>
-                            <button>Отправить</button>
                         </div>
                     </div>
                 </div>
@@ -245,14 +247,16 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="prev">
-                            <img src="./img/Polygon 1.svg" alt="">
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                            data-bs-slide="next">
-                            <img src="./img/Polygon 2.svg" alt="">
-                        </button>
+                        <div class="slide-button">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <img src="./img/Polygon 1.svg" alt="">
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <img src="./img/Polygon 2.svg" alt="">
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="box-work-with-us">
@@ -437,7 +441,84 @@
                 </div>
             </div>
 
+            <div class="box-small-contacts">
+                <div class="box-flex">
+                    <div class="container">
+                        <div class="box-footer-site-contacts">
+                            <div class="contacts-mobile">
+                                <h4>Контакты</h4>
+                                <div class="tel-contact-mobile">
+                                    <span>Телефон:</span>
+                                    <div class="tel-contact-item">
+                                        <a href="">8(902)272-93-14</a>
+                                        <a href="">8(982)178-03-07</a>
+                                    </div>
+                                </div>
+                                <div class="email-contact-mobile">
+                                    <span>E-mail:</span>
+                                    <a href="">nasvaniye@mail.ru</a>
+                                </div>
+                                <div class="address-contact-mobile">
+                                    <span>Адрес:</span>
+                                    <a href="">г. Екатеринбург, ул. Колмогорова, дом 67</a>
+                                </div>
+                                <div class="name-company-contacts-mobile">
+                                    <h5>ООО “Название”</h5>
+                                    <div class="social-icon-contacts-mobile">
+                                        <a href=""><img src="./img/social-contacts/viber.svg" alt=""></a>
+                                        <a href=""><img src="./img/social-contacts/Phone.svg" alt=""></a>
+                                        <a href=""><img src="./img/social-contacts/Envelope.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="feedback-questions-mobile-small">
+                        <div class="feedback-questions-container-mobile">
+                            <h4>Остались вопросы?</h4>
+                            <div class="box-feedback-questions-grid-mobile">
+                                <div class="box-input-data-user">
+                                    <div class="item-input-data-user">
+                                        <span>Имя</span>
+                                        <input placeholder="Имя" type="text">
+                                    </div>
+                                    <div class="item-input-data-user">
+                                        <span>Телефон</span>
+                                        <input placeholder="8 (800) 535 35 35" type="text">
+                                    </div>
+                                    <div class="item-input-data-user">
+                                        <span>Почта</span>
+                                        <input placeholder="company@mail.com" type="text">
+                                    </div>
+                                    <div class="box-comments">
+                                        <span>Коментарий</span>
+                                        <input placeholder="Напишите ваш вопрос..." type="text">
+                                        <button>Отправить</button>
+                                    </div>
+                                    <div class="item-input-data-user-mobile chekbox-mobile">
+                                        <input type="checkbox">
+                                        <span>Даю свое согласие
+                                            с <a href="">политикой конфиденциальности</a></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-copyright-small">
+                        <div class="container ">
+                            <div class="box-copyright-flex">
+                                <span>Все права защищены.</span>
+                                <div class="box-fox">
+                                    <img src="./img/fox.svg" alt="">
+                                    <a href="">Разработка сайта - студия “ТвойСтартап”</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="footer-site-contacts">
                 <div class="container">
                     <div class="box-footer-site-contacts">
