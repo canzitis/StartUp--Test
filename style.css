@@ -1260,7 +1260,29 @@ color: #0B0B0B;
         display: block;
     }
 }
+    @media(max-width:860px){
+        .container{
+            max-width: 750px;
+        }
+    }
     
+    
+    @media(max-width:760px){
+        .container{
+            max-width: 600px;
+        }
+    }   
+    
+    @media(max-width:600px){
+        .container{
+            max-width: 480px;
+        }
+    }
+
+
+
+
+
 
 
 @font-face {
