@@ -1733,6 +1733,10 @@ color: #0B0B0B;
         .box-small-contacts{
             display: block;
         }
+        .bid-go-button{
+            font-size: 13px;
+
+        }
     }
 
 
