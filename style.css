@@ -1418,6 +1418,9 @@ color: #0B0B0B;
     background: #001A33;
 }
 
+.chek-text-item span{
+    display: flex;
+}
 
 /*************************** @MEDIA *******************************/
 
@@ -1434,6 +1437,15 @@ color: #0B0B0B;
 
     .nav-link a{
         padding: 37px 10px;
+    }
+    .container-carousel{
+        max-width: 380px;
+    }
+
+
+    .block-chek-text img{
+        width: 20px;
+        height: 20px;
     }
 
 }
@@ -1464,6 +1476,18 @@ color: #0B0B0B;
 
     .bid-go-button{
         margin-top: 10px;
+    }
+
+    .container-carousel{
+        max-width: 300px;
+    }
+
+    .bid-go-button{
+        width: 200px;
+        height: 50px;
+        margin:  0 auto;
+        margin-top: 20px;
+        font-size: 15px;
     }
 }
 
@@ -1580,6 +1604,10 @@ color: #0B0B0B;
         width: 90%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .tel-call-mobile a{
+        font-size: 17px ;
     }
 
 }
@@ -1736,7 +1764,7 @@ color: #0B0B0B;
         .bid-go-button{
             font-size: 13px;
 
-        }
+            }
     }
 
 
@@ -1764,6 +1792,11 @@ color: #0B0B0B;
         .bid-go-button{
             margin-bottom: 20px;
         }
+
+          .box-certificates img{
+            margin-bottom: 20px;
+            margin-right:0;
+        }
     } 
     
     
@@ -1779,6 +1812,18 @@ color: #0B0B0B;
         .container-mobile-feedback{
             max-width: 250px;
         }
+
+        .container-carousel{
+            max-width: 200px;
+        }
+
+        .slide-button img{
+            width: 30px;
+            height: 30px;
+        }
+
+      
+
     }
 
 @media(max-width:330px){
@@ -1791,16 +1836,48 @@ color: #0B0B0B;
         }
 
         .container-carousel{
-            max-width:180px;
+            max-width:150px;
+            word-break: break-all
+        }
+
+        .bid-go-button{
+            max-width: 160px;
+            font-size: 11px;
         }
 
         .bid-go-button{
             font-size: 13px ;
+            margin:  0 auto;
+            margin: 10px 0 10px 0;
+    
+        }
+
+        .slide-button img{
+            width: 25px;
+            height: 25px;
         }
 
         .about-our-company-container-mobile{
             max-width: 200px;
         }
+
+        .grid-works-item img{
+            margin-right: 10px;
+        }
+
+        .grid-works-item h4{
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .company-name-mobile h4{
+            font-size: 17px;
+        }
+        
+        .company-name-mobile span{
+            font-size: 13px;
+        }
+
     }
 
 
